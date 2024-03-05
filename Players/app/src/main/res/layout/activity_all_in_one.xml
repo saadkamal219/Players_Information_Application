@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AllInOne">
+
+    <ImageView
+        android:id="@+id/anyimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sakib"
+        android:layout_gravity="center"
+        android:layout_marginTop="50px"
+        />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shakib Al Hasan"
+        android:layout_marginTop="30px"
+        android:textSize="80px"
+        android:textAlignment="center"
+        android:textColor="#720505"
+        android:textStyle="bold"
+        />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sakib"
+            android:layout_marginTop="30px"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:textSize="60px"
+            android:textColor="#190202"
+            android:textStyle="normal"
+            />
+
+    </ScrollView>
+
+</LinearLayout>

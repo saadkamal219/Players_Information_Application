@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PlayerMenu">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose any player"
+        android:textAlignment="center"
+        android:textSize="100px"
+        android:textStyle="bold"
+        android:textColor="#1C9D18"
+        android:layout_marginTop="60px"
+        android:layout_marginBottom="60px"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shakib Al Hasan"
+        android:textSize="60px"
+        android:textColor="#720505"
+        android:backgroundTint="#36BA11"
+        android:textStyle="bold"
+        android:id="@+id/sakib"
+        android:layout_marginBottom="40px"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tamim Iqbal"
+        android:textSize="60px"
+        android:textColor="#720505"
+        android:backgroundTint="#36BA11"
+        android:textStyle="bold"
+        android:id="@+id/tamim"
+        android:layout_marginBottom="40px"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lionel Messi"
+        android:textStyle="bold"
+        android:textSize="60px"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#0E4189"
+        android:id="@+id/messi"
+        android:layout_marginBottom="40px"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Neymar"
+        android:textStyle="bold"
+        android:textSize="60px"
+        android:textColor="#1BAC0B"
+        android:backgroundTint="#FDD835"
+        android:id="@+id/neymar"
+        android:layout_marginBottom="40px"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cristiano Ronaldo"
+        android:textSize="60px"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#890E0E"
+        android:id="@+id/rolando"
+        android:layout_marginBottom="40px"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Rock"
+        android:textSize="60px"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#890E0E"
+        android:id="@+id/rock"
+        android:layout_marginBottom="40px"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click to watch Video"
+        android:textSize="60px"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#890E0E"
+        android:id="@+id/video"
+        android:layout_marginBottom="40px"/>
+
+</LinearLayout>
